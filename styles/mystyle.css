@@ -1,0 +1,57 @@
+/**
+https://color.adobe.com/Color-Theme-145-color-theme-8323614/edit/?copy=true&base=2&rule=Custom&selected=0&name=Copy%20of%20Color%20Theme%20145&mode=rgb&rgbvalues=0.19,0.19,0.19,0.196078431372549,0.7294117647058823,0.8509803921568627,0.8509803921568627,0.8470588235294118,0.7803921568627451,0.6627451181411743,0.6392157077789307,0.5764706134796143,1,0.7568627595901489,0.5254902243614197&swatchOrder=0,1,2,3,4
+**/
+
+body {
+    background-color: #303030;
+    font-family: Roboto, sans-serif;
+    color: #f2f2f2;
+}
+.heading {
+    margin-top: 1em;
+    font-size: 350%;
+    margin-bottom: 1em;
+}
+.calculator {
+    background-color: #A9A393;
+    border-radius: 1em;
+    margin: auto;
+    /*adds spacing beneath calculator*/
+    padding:10px 8px 10px 8px;
+    max-width: 300px;
+    box-shadow:  7px 7px 5px #1a1a1a;
+}
+.input {
+    background-color: #FCFBE8;
+    border-radius: .5em;
+    color: #827D71;
+    padding: 0 1em 1px 1em;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+#current-input {
+  margin-top: 0;
+}
+
+#history{
+  opacity: 0.75;
+}
+
+/* bootstrap overrides */
+
+
+/*so that the input buttons are spaced out*/
+
+.btn {
+    width: 3.3em;
+    padding: 3px 1px 3px 1px;
+    background-color: #2A9BB5;
+    border-color: #2A9BB5;
+    font-size: 140%;
+}
+.row {
+    margin-top: .5em;
+    margin-left: 0;
+    margin-right: 0;
+}
